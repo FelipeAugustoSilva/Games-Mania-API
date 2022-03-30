@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.painel1{
+    background-color: black;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+
+.midia{
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.chat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.painel2{
+    background-color: #41404D;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.logo-site a{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;     
+}
+
+.lupa{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    height: 35px;
+}
+.lupas{
+    border-radius: 5px;
+    text-align: center;
+}
+
+.lupa button{
+    width: 40px;
+    border-radius: 5px;
+    
+}
+.painel3{
+    background-color: #82818E;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;  
+    padding-left: 25px;
+    padding-right: 25px;  
+}
+
+.depart1 a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+   
+}
+
+.depart1{
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner1{
+    height: auto;
+    
+}
+
+
+.bannerRed{
+    width: auto;
+    min-width: 100%;
+
+    
+}
+
+.anuncios{
+    margin: auto;
+}
+
+.ofertas-do-dia{
+    background-color: #82818E;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.ofertas-do-dia a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.Ofertas{
+    background-color:white;
+    padding: 2px;
+    
+}
+
+.anuncios-ofertas{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cards-ofertas{
+    width: 250px;
+    height: 250px;
+    color: rgb(14, 13, 13);
+    margin-bottom: 1px;
+    background-color: white;
+    text-align: center;
+}
+
+.cards-ofertas h5{
+    font-size: 22px;
+    color: green;
+}
+
+.cards-ofertas h6{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: red;
+}
+
+.mais-vendidos{
+    background-color: #82818E;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.mais-vendidos a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.mais-vendidos2{
+    background-color: white;
+    padding: 5px;
+}
+
+.anuncios-mais-vendidos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-vendidos{
+    width: 250px;
+    height: 250px;
+    color: rgb(14, 13, 13);
+    margin-bottom: 1px;
+    background-color: white;
+    text-align: center;
+}
+
+.cards-vendidos h5{
+    font-size: 22px;
+    color: green;
+}
+
+.cards-vendidos h6{
+    font-size: 14px;
+    text-decoration: line-through;
+    color: red;
+}
+
+.categorias{
+    background-color: #82818E;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.categorias a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.categorias2{
+    background-color: white;
+    height: 450px;
+
+}
+
+.departamentos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.cards-departamentos{
+    width: 250px;
+    height: 200px;
+    color: rgb(14, 13, 13);
+    margin-bottom: 2px;
+    background-color: white;
+    align-items: center;
+    
+}
+
+.cards-departamentos p{
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+/* .banner2{
+    height: 266px;
+    background-image: url(../img/bannerultimo.svg);
+    width: 1320px;
+} */
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+.rodape{
+    background-color: black;
+    padding: 10px;
+    height: 400px;
+}
+
+.atendimento2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-rodape{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-footer{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.links{
+    width: 700px;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.links ul{
+font-size: 18px;
+}
+
+.links2{
+    width: 700px;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+}
+
+.links2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.links2 ul{
+font-size: 18px;
+}
+
+
+.email-cadastro{
+    width: 350px;
+
+}
+
+.email-cadastro h3{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cadaemail{
+    width: 220px;
+    height: 35px;
+}
+
+.botaocada{
+    width: 100px;
+    height: 35px;
+}
+
+.navbar{
+    width: 30px;
+    display: none;
+    
+
+}
+
+.painel3{
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .painel1{
+        width: 100%;
+    }
+    
+    .painel2{
+        width: 100%;
+    }
+    
+    .painel3{
+        width: 100%;
+    }
+
+
+
+    .banner1{
+        height: auto;
+        
+    }
+    
+    
+    .bannerRed{
+        width: auto;
+        min-width: 100%;
+    
+        
+    }
+
+    .ofertas-do-dia{
+        width: 100%;
+    }
+
+    .anuncios-ofertas{
+        width: 100%;
+    }
+
+    .cards-ofertas p{
+       font-size: 90%;
+       -webkit-line-clamp: 2;
+    }
+
+    .cards-ofertas h6{
+        font-size: 90%;
+    }
+    .cards-ofertas h5{
+        font-size: 98%;
+        text-align: base;
+    }
+
+    .mais-vendidos{
+        width: 100%;
+    }
+
+
+    .cards-vendidos{
+        width: 100%;
+    }
+
+    .cards-vendidos p{
+       font-size: 92%;
+       -webkit-line-clamp: 2;
+    }
+
+    .cards-vendidos h6{
+        font-size: 92%;
+    }
+
+    .cards-vendidos h5{
+        font-size: 98%;
+        text-align: base;
+    }
+
+    .categorias{
+        width: 100%;
+    }
+
+    .categorias2{
+        height: auto;
+    }
+
+    .departamentos{
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+        justify-items: auto;
+        margin: 5px;
+    }
+
+    .cards-departamentos p{
+        font-size: 90%;
+    }
+    
+    .cards-departamentos img{
+        width: 70%;
+    }
+
+    .footer{
+       width: 100%;
+    }
+
+    .atendimento2 img{
+        width: 85%;
+        
+    }
+
+    .teste2 h2{
+        color: whitesmoke;
+        font-size: 20px;
+    }
+
+    .links{
+        font-size: 60%;
+        text-align: left;
+    }
+
+    .links2{
+        font-size: 60%;
+        text-align: left;
+    }
+
+    .email-cadastro{
+        width: 600px;
+    }
+    
+    
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .logo-site a{
+        font-size: 50px;
+    }
+
+    .login-carrinho{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar{
+        display: inline-block;
+      
+        
+    }
+
+    .banner1{
+        height: auto;
+        
+    }
+    
+    
+    .bannerRed{
+        width: auto;
+        min-width: 100%;
+        max-width: 100%;
+    
+        
+    }
+
+    .navbar{
+       list-style: none; 
+    
+    }
+
+    .navbar{
+        padding-top: 8px;
+        
+    }
+
+    .depart1{
+        display: none;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        background-color: #41404D;
+        top: 51px;
+        left: 0;
+
+    }
+
+    .banner1{
+        width: 100%;
+    }
+    .banner1 h1{
+        font-size: 25px;
+    }
+
+    .cards-ofertas p{
+        font-size: 75%;
+        
+    }
+
+
+    .cards-vendidos p{
+        font-size: 75%;
+        
+    }
+
+    .teste2 h2{
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    
+    .atendimento2 img{
+        width: 70%;
+
+    }
+    
+    .teste{
+        width: auto;
+    }
+    .links h2{
+        font-size: 20px;
+    }
+
+    .inst{
+        font-size: 16px;
+    }
+
+    .links{
+        width: 150px;
+    }
+
+    .email-cadastro h3{
+        width: 200px;
+        font-size: 15px;  
+    }
+
+    .cadaemail{
+        width: 170px;
+    }
+
+    .botaocada{
+        width: 80px;
+    }
+    
+
+    
+}

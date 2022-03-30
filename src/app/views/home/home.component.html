@@ -1,0 +1,248 @@
+<body onload="redenrizarAnuncios()">
+    <header>
+        <div class="container-grid painel1">
+            <nav class="midia">
+                <a href=""><img src="/assets/img/FACE2525.svg" alt="facebook"></a>
+                <a href=""><img src="/assets/img/TRITER2525.svg" alt="twiter"></a>
+                <a href=""><img src="/assets/img/inst2525.svg" alt="instagram"></a>       
+            </nav> 
+            <nav class="chat">
+                <a href="">Central de atendimento</a>
+                <a href=""><img src="/assets/img/chat2525.svg" alt="chat"></a>
+            </nav>                    
+        </div>
+        <div class="container-grid painel2">
+            <nav class="logo-site">
+                <a href="">Games Mania</a>
+            </nav>
+            <div class="lupa" id="divBusca">
+                <input class="lupas" type="text" id="txtBusca" placeholder="Pesquise aqui..."/>
+                <button id="btnBusca"><img src="/assets/img/lupa.svg" alt="lupa"></button>
+            </div>
+            <nav class="login-carrinho">
+                <a href="/src/app/views/login/login.component.html"><img src="/assets/img/Olá, faça seu cadastro e login.svg" alt="login"></a>
+                <a href="/src/app/views/login/login.component.html"><img src="/assets/img/CARRINHO2525.svg" alt="carrinho"></a>
+            </nav>
+        </div>
+        <div class="container-grid painel3">
+            <nav id="menu" class="depart1">
+                <a href="">Departamentos</a>
+                <a href="">Ofertas do dia</a>
+                <a href="">Mais vendidos</a>
+                <a href="">Pc gamers</a>
+                <a href="">Notebooks</a>
+                <a href="">Video-games</a>
+                <a href="">Jogos</a>               
+            </nav>
+            <li class="navbar" onclick="mostrarMenu()"><img class="barras" src="/assets/img/bars-solid.svg" alt="menu de barras"></li>
+            
+        </div>
+    </header>
+    <div class="banner1">
+        <div class="bannerAngular">
+            <a href=""><img class="bannerRed" src="/assets/img/Group 70.png" alt="Angular"></a>
+        </div>
+    </div>
+    <section>
+        <div class="anuncios">
+            <div class="ofertas-do-dia">
+                <a href="">Ofertas do dia</a>
+            </div>      
+        </div>
+    </section>
+    <section class="Ofertas">
+        <div *ngFor="let anuncios of listaAnuncios" id="espaco-ofertas"  class="anuncios-ofertas">
+            
+            <div class="cards-vendidos">
+                <img [src]= anuncios.imagem >
+                <p>{{anuncios.titulo}}</p>
+                <h6>{{anuncios.preco}}</h6>
+                <h5>{{anuncios.precoDesconto}}</h5>
+            </div>
+            <!--<div class="cards-ofertas">
+                <a href=""><img src="/assets/img/processador-intel-core-i5-10400-cache-12mb-2-9ghz-lga-1200-bx8070110400_1589200167_m 1.svg" alt="ofertas"></a>
+                <p>Processador Intel Core i5-10400, Cache 12MB, 2.9GHz,LGA 1200</p>
+                <h6>De   R$ 1.890,20</h6>
+                <h5>Por R$ 1.369,90</h5>
+            </div>
+            <div class="cards-ofertas">
+                <a href=""><img src="/assets/img/controle-sem-fio-sony-ps5-dualsense-galactic-purple-3006456_1639498915_m 1.svg" alt="ofertas"></a>
+                <p>Controle Sem Fio Sony PS5, DualSense, Galactic Purple, Original</p>
+                <h6>De   R$ 690,20</h6>
+                <h5>Por R$ 569,90</h5>
+            </div>
+            <div class="cards-ofertas">
+                <a href=""><img src="/assets/img/headset.svg" alt="ofertas"></a>
+                <p>Headset Gamer HyperX Cloud Stinger, Drivers 50mm, P2 e P3, Original</p>
+                <h6>De   R$ 490,20</h6>
+                <h5>Por R$ 369,90</h5>
+            </div>
+            <div class="cards-ofertas">
+                <a href=""><img src="/assets/img/samsung-galaxy-s21-5g-128gb-ram-8gb-octa-core-camera-tripla-preto-sm-g996bzkrzto_1612960267_m 1.svg" alt="ofertas"></a>
+                <p>Samsung Galaxy S21+ 5G,128GB, RAM 8GB, Octa-Core</p>
+                <h6>De   R$ 5.290,20</h6>
+                <h5>Por R$ 4.769,90</h5>
+            </div>
+            <div class="cards-ofertas">
+                <a href=""><img src="/assets/img/kit-mouse-gamer-redragon-cobra-rgb-10000dpi-7-botoes-preto-m711-mousepad-gamer-husky-black-avalanche-speed-ex-890x400mm-mp-hav-bk_1639512859_m 2.svg" alt="ofertas"></a>
+                <p>Kit Gamer Warrior - Mouse LED+ Mousepad Control, Original </p>
+                <h6>De   R$ 290,20</h6>
+                <h5>Por R$ 169,90</h5>>
+            </div>-->
+        </div>
+    </section>
+    <section>
+        <div class="container-grid anuncios">
+            <div class="mais-vendidos">
+                <a href="">Mais vendidos</a>
+            </div>      
+        </div>
+    </section>
+    <section class="mais-vendidos2">
+        <div class="anuncios-mais-vendidos">
+            <div class="cards-vendidos">
+                <a href=""><img src="/assets/img/fonte-xpg-core-reactor-850w-80-plus-gold-modular_fonte-xpg-core-reactor-850w-80-plus-gold-modular_1571154124_m 2.svg" alt="vendidos"></a>
+                <p>Fonte XPG Core Reactor, 850W, 80 Plus Gold Modular</p>
+                <h6>De   R$ 990,20</h6>
+                <h5>Por R$ 369,90</h5>
+            </div>
+            <div class="cards-vendidos">
+                <a href=""><img src="/assets/img/headset.svg" alt="vendidos"></a>
+                <p>Headset Gamer Multilaser P2, Preto e Vermelho </p>
+                <h6>De   R$ 190,20</h6>
+                <h5>Por R$169,90</h5>
+            </div>
+            <div class="cards-vendidos">
+                <a href=""><img src="/assets/img/kit-mouse-gamer-redragon-cobra-rgb-10000dpi-7-botoes-preto-m711-mousepad-gamer-husky-black-avalanche-speed-ex-890x400mm-mp-hav-bk_1639512859_m 2.svg" alt="vendidos"></a>
+                <p>Kit Gamer Warrior - Mouse LED+ Mousepad Control </p>
+                <h6>De   R$ 290,20</h6>
+                <h5>Por R$ 169,90</h5>
+            </div>
+            <div class="cards-vendidos">
+                <a href=""><img src="/assets/img/console-microsoft-xbox-series-s-500gb-branco-rrs-00006_1601067301_m 1.svg" alt="vendidos"></a>
+                <p>Console Microsoft Xbox Series S, 512GB, Branco</p>
+                <h6>De   R$ 2.990,20</h6>
+                <h5>Por R$ 2.369,90</h5>
+            </div>
+            <div class="cards-vendidos">
+                <a href=""><img src="/assets/img/jogo-fifa-22-br-ps4_1629376351_m 1.svg" alt="vendidos"></a>
+                <p>FIFA 22 Edição Standard para PS4, Original</p>
+                <h6>De   R$ 290,20</h6>
+                <h5>Por R$ 269,90</h5>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-grid anuncios">
+            <div class="categorias">
+                <a href="">Departamentos</a>
+            </div>      
+        </div>
+    </section>
+    <section class="categorias2">
+        <div class="container-grid departamentos">
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/HARDWARE 2.svg" alt="departamentos"></a>              
+                <p>Harware</p>
+            </div>
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/PERIFERICOS 2.svg" alt="departamentos"></a>              
+                <p>Perifericos</p>
+            </div>
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/GAMER 2.svg" alt="departamentos"></a>              
+                <p>Jogos</p>
+            </div>
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/COMPUTADORES 2.svg" alt="departamentos"></a>              
+                <p>Computadores</p>
+            </div>
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/monitor.svg" alt="departamentos"></a>              
+                <p>Monitores</p>
+            </div>
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/CELULAR-TELEFONE 3.svg" alt="departamentos"></a>              
+                <p>Smartphone</p>
+            </div>
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/AUDIO 3.svg" alt="departamentos"></a>              
+                <p>Fones de ouvido</p>
+            </div>
+            <!-- <div class="img" class="cards-departamentos">
+                <a class="img" href=""><img src="img/GAMER 2.svg" alt="departamentos"></a>              
+                <p>Serviços online</p>
+            </div> -->
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/CADEIRAS 3.svg" alt="departamentos"></a>              
+                <p>Cadeiras</p>
+            </div>
+            <div class="cards-departamentos">
+                <a class="img" href=""><img src="/assets/img/GAMER 3.svg" alt="departamentos"></a>              
+                <p>Video games</p>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="container-grid banner2">
+        <div class="texto-banner2">
+        </div>
+    </div> -->
+    <footer>
+        <div class="rodape">
+            <div class="link-footer">
+                <nav class="atendimento2">
+                    <a class="img" href=""><img src="/assets/img/atendimento2.svg" alt="atendimento2"></a>
+                    <!-- <a class="img" href=""><img src="img/mercadopago 2.svg" alt="pagamento"></a> -->
+                </nav>
+                <div class="info-rodape">
+                    <div class="teste">
+                        <div class="links">
+                            <h2>Intitucional</h2>
+                            <ul>
+                                <li class="inst"><a href="#">Quem somos</a></li>
+                                <li class="inst"><a href="#">Localizaçao</a></li>
+                                <li class="inst"><a href="#">Nossas lojas</a></li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <h2>Duvidas</h2>
+                            <ul>
+                                <li class="inst"><a href="#">Entregas</a></li>
+                                <li class="inst"><a href="#">Garantias</a></li>
+                                <li class="inst"><a href="#">Como comprar</a></li>
+                            </ul>
+                        </div>
+                        <div id="area">
+                            <div class="email-cadastro">
+                            <h3>Newsletter, receba ofertas excluisvas no seu e-mail</h3>
+                            <form id="formulario" autocomplete="off">
+                            
+                              <input class="cadaemail" type="email" placeholder="Digite seu email aqui.."/>
+                              <button class="botaocada" id="btnCadastrar">Cadastar</button>
+
+
+                            </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--<script>
+        let menu =  document.getElementById("menu");
+
+        function mostrarMenu() {
+            if(menu.style.display != "flex"){
+                menu.style.display = "flex"
+            }else{
+                menu.style.display = "none"
+            }
+        }
+    </script>-->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="/src/app/views/js/script.js"></script>
+    <script src="/src/app/views/home/home.component.ts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<body>
+</body>
