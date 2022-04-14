@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Anuncios } from 'src/app/models/anuncios';
-import { Ofertas } from 'src/app/models/ofertas';
+
 import { AnunciosService } from 'src/app/services/anuncios.service';
 ;
 
@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   }
 
   carregarAnuncios() {
-    this.anunciosService.getOfertas().subscribe( (ofertasRecebidas: Ofertas[]) => {
+    this.anunciosService.getOfertas().subscribe( (ofertasRecebidas: Anuncios[]) => {
       this.listaAnuncios = ofertasRecebidas;
       console.log(this.listaAnuncios);
     } )

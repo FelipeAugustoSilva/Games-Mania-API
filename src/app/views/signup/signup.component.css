@@ -1,0 +1,16 @@
+.container{
+    color: white;
+    
+}
+
+.card{
+    margin-top: 5%;
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: center;
+    left: 30%;
+    background: #82818E;
+
+}

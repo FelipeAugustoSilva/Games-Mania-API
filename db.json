@@ -1,78 +1,127 @@
 {
-    "Ofertas" : [
-        {
-            "id" :  1,
-            "imagem" : "assets/img/processador-intel-core-i5-10400-cache-12mb-2-9ghz-lga-1200-bx8070110400_1589200167_m 1.svg",
-            "titulo" : "Processador Intel Core i5-10400, Cache 12MB, 2.9GHz,LGA 1200",
-            "preco" : "De   R$ 1.890,20",
-            "precoDesconto" : "Por R$ 1.369,90"
-        },
-        {
-            "id" :  2,
-            "imagem" : "assets/img/controle-sem-fio-sony-ps5-dualsense-galactic-purple-3006456_1639498915_m 1.svg",
-            "titulo" : "Controle Sem Fio Sony PS5, DualSense, Galactic Purple, Original",
-            "preco" : "De   R$ 690,20",
-            "precoDesconto" : "Por R$ 569,90"
-        },
-        {
-            "id" :  3,
-            "imagem" : "assets/img/headset.svg",
-            "titulo" : "Headset Gamer HyperX Cloud Stinger, Drivers 50mm, P2 e P3, Original",
-            "preco" : "De   R$ 490,20",
-            "precoDesconto" : "Por R$ 369,90"
-        },
-        {
-            "id" :  4,
-            "imagem" : "assets/img/samsung-galaxy-s21-5g-128gb-ram-8gb-octa-core-camera-tripla-preto-sm-g996bzkrzto_1612960267_m 1.svg",
-            "titulo" : "Samsung Galaxy S21+ 5G,128GB, RAM 8GB, Octa-Core",
-            "preco" : "De   R$ 5.290,20",
-            "precoDesconto" : "Por R$ 4.769,90"
-        },
-        {
-            "id" :  5,
-            "imagem" : "assets/img/kit-mouse-gamer-redragon-cobra-rgb-10000dpi-7-botoes-preto-m711-mousepad-gamer-husky-black-avalanche-speed-ex-890x400mm-mp-hav-bk_1639512859_m 2.svg",
-            "titulo" : "Kit Gamer Warrior - Mouse LED+ Mousepad Control, Original",
-            "preco" : "De   R$ 290,20",
-            "precoDesconto" : "Por R$ 169,90"
-        }
-    ],
-
-    "mais-vendidos2" : [
-        {
-            "id" :  1,
-            "imagem" : "assets/img/fonte-xpg-core-reactor-850w-80-plus-gold-modular_fonte-xpg-core-reactor-850w-80-plus-gold-modular_1571154124_m 2.svg",
-            "titulo" : "Fonte XPG Core Reactor, 850W, 80 Plus Gold Modular",
-            "preco" : "De   R$ 990,20",
-            "precoDesconto" : "Por R$ 369,90"
-        },
-        {
-            "id" :  2,
-            "imagem" : "assets/img/headset.svg",
-            "titulo" : "Headset Gamer HyperX Cloud Stinger, Drivers 50mm, P2 e P3, Original",
-            "preco" : "De   R$ 190,20",
-            "precoDesconto" : "Por R$ 169,90"
-        },
-        {
-            "id" :  3,
-            "imagem" : "assets/img/kit-mouse-gamer-redragon-cobra-rgb-10000dpi-7-botoes-preto-m711-mousepad-gamer-husky-black-avalanche-speed-ex-890x400mm-mp-hav-bk_1639512859_m 2.svg",
-            "titulo" : "Headset Gamer HyperX Cloud Stinger, Drivers 50mm, P2 e P3, Original",
-            "preco" : "De   R$ 290,20",
-            "precoDesconto" : "Por R$ 169,90"
-        },
-        {
-            "id" :  4,
-            "imagem" : "assets/img/console-microsoft-xbox-series-s-500gb-branco-rrs-00006_1601067301_m 1.svg",
-            "titulo" : "Console Microsoft Xbox Series S, 512GB, Branco",
-            "preco" : "De   R$ 2.990,20",
-            "precoDesconto" : "Por R$ 2.369,90"
-        },
-        {
-            "id" :  5,
-            "imagem" : "assets/img/jogo-fifa-22-br-ps4_1629376351_m 1.svg",
-            "titulo" : "FIFA 22 Edição Standard para PS4, Original",
-            "preco" : "De   R$ 290,20",
-            "precoDesconto" : "Por R$ 269,90"
-        }
-
-    ]
+  "users": [
+    {
+      "id": 1,
+      "email": "Felipe@gmail.com",
+      "password": "$2a$10$cIAdqmtU9vRaRuEDfUfy9e6pogKP50Hjj/Tv.6KU9z.Xqd4VeTalG",
+      "name": "Felipe Augusto"
+    },
+    {
+      "email": "Anne@gmail.com",
+      "password": "$2a$10$Y6HrIZnGQOtdJTHgdH8.Gume1L.geAAjHpdnRqf7kS4n5S2JtI0vS",
+      "name": "Anne",
+      "id": 2
+    },
+    {
+      "email": "Lucas@gmail.com",
+      "password": "$2a$10$u90CIhxfeRLg4BMjxksPoe06/VbegaSS7qWeqF4.J7gHmjqXsrTsG",
+      "name": "Lucas",
+      "id": 3
+    },
+    {
+      "email": "Ana@gmail.com",
+      "password": "$2a$10$L8ruSNTL1zyZVWBt.WDSHeCe8kj9y0AoQ20YJzGQ0EbHnqLwcGxFO",
+      "name": "Ana",
+      "id": 4
+    },
+    {
+      "email": "Marcos@gmail.com",
+      "password": "$2a$10$CIU3yw/E4K2jAN2deQd1RuiowgTJMy4p9Br3u/XNDoFxMqwLdN9OW",
+      "name": "Marcos Paulo",
+      "id": 5
+    },
+    {
+      "email": "Joao@gmail.com",
+      "password": "$2a$10$EAP5NrY5tnmTH835zBziG.S.W7KWRuZQlSL4qa2ZDY/wswtchG8PK",
+      "name": "Joao Paulo",
+      "id": 6
+    },
+    {
+      "email": "nina@gmail.com",
+      "password": "$2a$10$1uLNqaFwRptAbvdRaPcepuqtX/YV6LfYVzXr2Cro2H5AJ1oJjoCoO",
+      "name": "Nina",
+      "id": 7
+    },
+    {
+      "fullname": "felipe",
+      "email": "felipeaugustodasilva23@gmail.com",
+      "password": "335277",
+      "mobile": 43991680922,
+      "id": 8
+    }
+  ],
+  "Ofertas": [
+    {
+      "id": 1,
+      "imagem": "assets/img/processador-intel-core-i5-10400-cache-12mb-2-9ghz-lga-1200-bx8070110400_1589200167_m 1.svg",
+      "titulo": "Processador Intel Core i5-10400, Cache 12MB, 2.9GHz,LGA 1200",
+      "preco": "De   R$ 1.890,20",
+      "precoDesconto": "Por R$ 1.369,90"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/controle-sem-fio-sony-ps5-dualsense-galactic-purple-3006456_1639498915_m 1.svg",
+      "titulo": "Controle Sem Fio Sony PS5, DualSense, Galactic Purple, Original",
+      "preco": "De   R$ 690,20",
+      "precoDesconto": "Por R$ 569,90"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/headset.svg",
+      "titulo": "Headset Gamer HyperX Cloud Stinger, Drivers 50mm, P2 e P3, Original",
+      "preco": "De   R$ 490,20",
+      "precoDesconto": "Por R$ 369,90"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/samsung-galaxy-s21-5g-128gb-ram-8gb-octa-core-camera-tripla-preto-sm-g996bzkrzto_1612960267_m 1.svg",
+      "titulo": "Samsung Galaxy S21+ 5G,128GB, RAM 8GB, Octa-Core",
+      "preco": "De   R$ 5.290,20",
+      "precoDesconto": "Por R$ 4.769,90"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/img/kit-mouse-gamer-redragon-cobra-rgb-10000dpi-7-botoes-preto-m711-mousepad-gamer-husky-black-avalanche-speed-ex-890x400mm-mp-hav-bk_1639512859_m 2.svg",
+      "titulo": "Kit Gamer Warrior - Mouse LED+ Mousepad Control, Original",
+      "preco": "De   R$ 290,20",
+      "precoDesconto": "Por R$ 169,90"
+    }
+  ],
+  "mais-vendidos2": [
+    {
+      "id": 1,
+      "imagem": "assets/img/fonte-xpg-core-reactor-850w-80-plus-gold-modular_fonte-xpg-core-reactor-850w-80-plus-gold-modular_1571154124_m 2.svg",
+      "titulo": "Fonte XPG Core Reactor, 850W, 80 Plus Gold Modular",
+      "preco": "De   R$ 990,20",
+      "precoDesconto": "Por R$ 369,90"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/headset.svg",
+      "titulo": "Headset Gamer HyperX Cloud Stinger, Drivers 50mm, P2 e P3, Original",
+      "preco": "De   R$ 190,20",
+      "precoDesconto": "Por R$ 169,90"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/kit-mouse-gamer-redragon-cobra-rgb-10000dpi-7-botoes-preto-m711-mousepad-gamer-husky-black-avalanche-speed-ex-890x400mm-mp-hav-bk_1639512859_m 2.svg",
+      "titulo": "Headset Gamer HyperX Cloud Stinger, Drivers 50mm, P2 e P3, Original",
+      "preco": "De   R$ 290,20",
+      "precoDesconto": "Por R$ 169,90"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/console-microsoft-xbox-series-s-500gb-branco-rrs-00006_1601067301_m 1.svg",
+      "titulo": "Console Microsoft Xbox Series S, 512GB, Branco",
+      "preco": "De   R$ 2.990,20",
+      "precoDesconto": "Por R$ 2.369,90"
+    },
+    {
+      "id": 5,
+      "imagem": "assets/img/jogo-fifa-22-br-ps4_1629376351_m 1.svg",
+      "titulo": "FIFA 22 Edição Standard para PS4, Original",
+      "preco": "De   R$ 290,20",
+      "precoDesconto": "Por R$ 269,90"
+    }
+  ]
 }
